@@ -1,6 +1,6 @@
 using CargoOrders.Domain;
 
-namespace CargoOrders.Data;
+namespace CargoOrders.Business;
 
 /// <summary>
 /// Репозиторий для сущностей, реализующих <see cref="IEntity"/>

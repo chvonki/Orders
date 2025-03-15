@@ -5,7 +5,7 @@ namespace CargoOrders.Domain.Entities;
 /// </summary>
 public sealed class Location : IEntity
 {
-    public Location(Guid id, string address, string city)
+    private Location(Guid id, string address, string city)
     {
         Id = id;
         Address = address;
@@ -31,4 +31,9 @@ public sealed class Location : IEntity
     /// Навигационное свойство для заказов
     /// </summary>
     public List<Order> Orders { get; set; } = [];
+
+    public static Location Create(string address, string city)
+    {
+        return new Location(Guid.NewGuid(), address, city);
+    }
 }

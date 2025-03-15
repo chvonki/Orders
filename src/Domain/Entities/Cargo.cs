@@ -32,10 +32,10 @@ public sealed class Cargo : IEntity
     /// <param name="id">Идентификатор груза</param>
     /// <param name="weight">Вес груза</param>
     /// <returns></returns>
-    public static Cargo Create(Guid id, double weight)
+    public static Cargo Create(double weight)
     {
         Validate(weight);
-        return new Cargo(id, weight);
+        return new Cargo(Guid.NewGuid(), weight);
     }
     
     private static void Validate(double weight)
