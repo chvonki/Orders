@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{82759458-A54F-4758-A96C-73EF3D15EBDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "src\Business\Business.csproj", "{0FFD6ACB-6B6F-489F-BFDD-25181676FC2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "src\Data\Data.csproj", "{90A698D6-DA74-4AD8-8182-893E8487E3C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{BA55626A-EB81-4A10-91CE-AA7E83D266ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{FD52293D-F41D-4A40-8F53-D5FC1261E63E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{C07ABF38-F5AE-4783-A900-CEE1A8A3B04E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.PostgreSql", "Data.PostgreSql\Data.PostgreSql.csproj", "{DBEBEC2C-B25F-4C0F-9997-AB551CC49320}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82759458-A54F-4758-A96C-73EF3D15EBDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82759458-A54F-4758-A96C-73EF3D15EBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82759458-A54F-4758-A96C-73EF3D15EBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82759458-A54F-4758-A96C-73EF3D15EBDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FFD6ACB-6B6F-489F-BFDD-25181676FC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFD6ACB-6B6F-489F-BFDD-25181676FC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFD6ACB-6B6F-489F-BFDD-25181676FC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFD6ACB-6B6F-489F-BFDD-25181676FC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A698D6-DA74-4AD8-8182-893E8487E3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A698D6-DA74-4AD8-8182-893E8487E3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A698D6-DA74-4AD8-8182-893E8487E3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A698D6-DA74-4AD8-8182-893E8487E3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA55626A-EB81-4A10-91CE-AA7E83D266ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA55626A-EB81-4A10-91CE-AA7E83D266ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA55626A-EB81-4A10-91CE-AA7E83D266ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA55626A-EB81-4A10-91CE-AA7E83D266ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD52293D-F41D-4A40-8F53-D5FC1261E63E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD52293D-F41D-4A40-8F53-D5FC1261E63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD52293D-F41D-4A40-8F53-D5FC1261E63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD52293D-F41D-4A40-8F53-D5FC1261E63E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07ABF38-F5AE-4783-A900-CEE1A8A3B04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07ABF38-F5AE-4783-A900-CEE1A8A3B04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07ABF38-F5AE-4783-A900-CEE1A8A3B04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07ABF38-F5AE-4783-A900-CEE1A8A3B04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBEBEC2C-B25F-4C0F-9997-AB551CC49320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBEBEC2C-B25F-4C0F-9997-AB551CC49320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBEBEC2C-B25F-4C0F-9997-AB551CC49320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBEBEC2C-B25F-4C0F-9997-AB551CC49320}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
