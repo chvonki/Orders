@@ -6,13 +6,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "src\Business\Bu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "src\Data\Data.csproj", "{90A698D6-DA74-4AD8-8182-893E8487E3C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{BA55626A-EB81-4A10-91CE-AA7E83D266ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "src\Host\Host.csproj", "{BA55626A-EB81-4A10-91CE-AA7E83D266ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{FD52293D-F41D-4A40-8F53-D5FC1261E63E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "src\Contracts\Contracts.csproj", "{FD52293D-F41D-4A40-8F53-D5FC1261E63E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{C07ABF38-F5AE-4783-A900-CEE1A8A3B04E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "src\Web\Web.csproj", "{C07ABF38-F5AE-4783-A900-CEE1A8A3B04E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.PostgreSql", "Data.PostgreSql\Data.PostgreSql.csproj", "{DBEBEC2C-B25F-4C0F-9997-AB551CC49320}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.PostgreSql", "src\Data.PostgreSql\Data.PostgreSql.csproj", "{DBEBEC2C-B25F-4C0F-9997-AB551CC49320}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
